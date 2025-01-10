@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*Navbar Style*/
+
+header{
+    padding:24px 160px 24px 160px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-title{
+    color:black;
+    font-family: Fira Sans;
+    font-size:32px;
+    font-weight: bold;
+}
+
+.navbar-btn{
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color:#006A50;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight:600;
+}
+
+.navbar-btn:hover{
+    background-color:#006A50 ;
+    color: white;
+}
+
+/*Banner Style*/
+
+.banner-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    background: #C6E4D6;
+    height: 560px;
+    padding: 10px 55px 10px 55px;
+    
+ 
+}
+
+.banner-title{
+    color:rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px; 
+}
+
+.banner-description{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.banner-btn{
+    padding: 17px 34px 17px 34px;
+    background-color: #006A50;
+    color:white;
+    font-family: Fira Sans;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px; 
+}
+
+.banner-btn:hover{
+    background-color: white;
+    color:#006A50;
+}
+
+.banner-img{
+    width:350px;
+    height: 400px;  
+}
+
+/* Pillar Section Style*/
+
+main{
+    padding: 0px 160px 0px 160px;
+    margin-top: 80px;
+}
+
+.pillar-text{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+}
+.pillar-content{
+    display: flex;
+    gap:24px;
+    margin-top: 32px;
+}
+
+.pillar{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.pillar-title{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.pillar-description{
+    color: #9e9898;
+    font-size: 15px;
+    font-family: Fira Sans;
+    font-weight: 400;
+}
+
+/* Future Section Style*/
+
+.future-contain{
+    margin-top: 80px;
+}
+.future-title{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.future-description{
+    color: #9e9898;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.future-card{
+    display: flex;
+    gap:24px;
+    margin-top: 32px;
+}
+
+.card-1,.card-2,.card-3{
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.card-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.card-2{
+    background: rgb(198, 228, 214);
+}
+
+.card-3{
+    background: rgb(247, 235, 207);
+}
+
+.card-title{
+    color:black;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+}
+
+.card-btn-1,.card-btn-2,.card-btn-3{
+    padding: 11px 20px 11px 20px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.card-btn-1{
+    background-color: blue;
+}
+
+.card-btn-1:hover{
+    background-color:white;
+    color:blue;
+}
+
+.card-btn-2{
+    background-color: green;
+}
+
+.card-btn-2:hover{
+    background-color:white;
+    color:green;
+}
+
+.card-btn-3{
+    background-color: yellow;
+}
+
+.card-btn-3:hover{
+    background-color:white;
+    color:rgb(168, 168, 76);
+}
+
+.speech-contain{
+    margin-top: 32px;
+    padding: 48px 24px 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: white;
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 25px 40px;
+}
+.speech-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+}
+
+.speech-name{
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.speech-indentity{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9e9898;
+    margin-top: 10px;
+}
